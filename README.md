@@ -83,9 +83,8 @@ Software Audit (Audit-Software)
 
 ## Steps to Run the Script:
 
-#### Save the Script:
-Save the script as 
-    ```
+#### Save the Script as:
+```
     AutomatedSystemHealthTool.ps1.
 ```
 
