@@ -84,3 +84,34 @@ Software Audit (Audit-Software)
 
     Uses a try-catch block to handle exceptions during script execution.
     Logs errors and displays them in red for immediate attention.
+
+
+## Steps to Run the Script:
+
+#### Save the Script:
+Save the script as 
+    AutomatedSystemHealthTool.ps1.
+
+#### Run PowerShell as Administrator:
+Right-click on the Windows Start button → Click PowerShell (Admin).
+
+#### Enable Script Execution:
+Run the command:
+Set-ExecutionPolicy RemoteSigned
+Confirm with Y if prompted.
+    Set-ExecutionPolicy RemoteSigned
+#### Execute the Script:
+Navigate to the folder containing the script.
+    Run:
+
+    .\AutomatedSystemHealthTool.ps1
+
+#### Review Logs:
+
+Check the Logs folder in the script's directory for detailed logs.
+
+#### Required Modules:
+
+Install the PSWindowsUpdate module for Windows Update functionality:
+
+    Install-Module -Name PSWindowsUpdate -Force -SkipPublisherCheck
