@@ -3,10 +3,10 @@ The project is a comprehensive PowerShell script that automates the routine main
 
 Below is a detailed breakdown of what each section and function accomplishes:
 ### Setup: Log Folder Initialization
-
-    Ensures that a Logs folder exists in the script directory.
-    Creates the folder if it doesn't exist.
-    Logs messages to a uniquely named log file based on the current timestamp.
+```
+Ensures that a Logs folder exists in the script directory.Creates the folder if it doesn't exist.
+Logs messages to a uniquely named log file based on the current timestamp
+```
 
 ### Logging Function (Log)
 
