@@ -145,7 +145,7 @@ Function Analyze-EventLogs {
     Log "Event Log Analysis Completed."
 }
 
-# Scheduling Task (Optional)
+# Scheduling Task 
 Function Schedule-Task {
     Log "Scheduling Task..."
     $Action = New-ScheduledTaskAction -Execute "PowerShell.exe" -Argument "-File $PSScriptRoot\AutomatedSystemHealthTool.ps1"
